@@ -261,7 +261,7 @@ angular.module('isoCurrency.common', [])
 			'DKK': {
 				text: 'Danish Krone',
 				fraction: 2,
-				symbol: 'kr'
+				symbol: 'kr '
 			},
 			'DJF': {
 				text: 'Djibouti Franc',
