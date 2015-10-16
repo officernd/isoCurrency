@@ -869,6 +869,7 @@ angular.module('isoCurrency.common', [])
 				if (!code || typeof code !== 'string') return;
 
 				return currencies[code.toUpperCase()];
-			}
+			},
+			currenciesByCode: currencies
 		};
 	});
